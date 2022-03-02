@@ -1,0 +1,80 @@
+/* Write your CSS here - remember to add Id's or classes to the HTML file */
+
+/* tag name selector*/
+
+* {
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  background-image: url(img/Records.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 1500px;
+}
+
+h1 {
+  font-size: 100px;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 25px;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  color: aliceblue;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: aliceblue;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+  font-weight: bold;
+}
+/* id selector */
+
+.color1 {
+  background-color: #ef8354;
+}
+
+.color2 {
+  background-color: #0e7c7b;
+}
+
+.color3 {
+  background-color: #9c538b;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  color: #ef8354;
+}
+
+a:hover {
+  color: #9c528b;
+}
+
+img {
+  width: 500px;
+  height: auto;
+  display: block;
+}
